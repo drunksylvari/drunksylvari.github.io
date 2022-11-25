@@ -16,6 +16,13 @@ h1 span {
   opacity: 0;
 }
 
+h1 span:first-child {
+  position: relative;
+  animation: move-text-color 0.35s forwards;
+  bottom: -1em;
+  opacity: 0;
+}
+
 @keyframes move-text-color {
   0% {
     bottom: -0.2em;
