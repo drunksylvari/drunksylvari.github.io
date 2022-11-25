@@ -11,37 +11,44 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 span {
   position: relative;
-  animation: move-text-color 0.60s forwards;
+  animation: move-text-color 0.30s forwards;
   bottom: -1em;
   opacity: 0;
 }
 
 h1 span:first-child {
-  animation: move-text-color 0.30s forwards;
+/*   animation: move-text-color 0.30s forwards; */
+  animation-delay: 0.30s;
 }
 
 h1 span:nth-child(2){
-  animation: move-text-color 0.60s forwards;
+/*   animation: move-text-color 0.60s forwards; */
+  animation-delay: 0.60s;
 }
 
 h1 span:nth-child(3){
-  animation: move-text-color 0.90s forwards;
+/*   animation: move-text-color 0.90s forwards; */
+  animation-delay: 0.90s;
 }
 
 h1 span:nth-child(4){
-  animation: move-text-color 1.20s forwards;
+/*   animation: move-text-color 1.20s forwards; */
+  animation-delay: 1.20s;
 }
 
 h1 span:nth-child(5){
-  animation: move-text-color 1.50s forwards;
+/*   animation: move-text-color 1.50s forwards; */
+  animation-delay: 1.50s;
 }
 
 h1 span:nth-child(6){
-  animation: move-text-color 1.80s forwards;
+/*   animation: move-text-color 1.80s forwards; */
+  animation-delay: 1.80s;
 }
 
 h1 span:nth-child(7){
-  animation: move-text-color 2.10s forwards;
+/*   animation: move-text-color 2.10s forwards; */
+  animation-delay: 2.10s;
 }
 
 @keyframes move-text-color {
